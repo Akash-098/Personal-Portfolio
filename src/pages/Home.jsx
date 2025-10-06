@@ -6,11 +6,14 @@ import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer";
+
+
+
 
 export const Home = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden">
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effects */}
@@ -18,8 +21,9 @@ export const Home = () => {
 
       {/* Navbar */}
       <Navbar />
+
       {/* Main Content */}
-      <main>
+      <main className="flex-1">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
@@ -28,7 +32,11 @@ export const Home = () => {
       </main>
 
       {/* Footer */}
-      <Footer />
+      <footer className="mt-auto text-center py-6 text-muted-foreground border-t border-secondary/50">
+        ©2025 Akash Kumar Rai. All rights reserved.
+      </footer>
     </div>
   );
 };
+
+export default Home;
