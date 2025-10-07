@@ -12,23 +12,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Excel Analytics Platform built with the MERN stack",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Excel Analytics Platform built with the MERN stack for uploading Excel files (.xls or .xlsx), analyzing the data, and generating interactive 2D and 3D charts.",
+    image: "/projects/Excell.jpg",
+    tags: ["Express.js", "Node.js", "Next.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Akash-098/Excell-project",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    image: "/projects/eccomerce.jpg",
+    tags: ["React", "Node.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Akash-098",
   },
 ];
 
